@@ -45,12 +45,17 @@ header > h1 {
 
  section.normal {
     background-color: white;
-    color:black ;
+    color:rgb(55, 55, 55) ;
  }
 
  section.imagem {
     background-color: rgb(28, 28, 28);
     color: white;
+ }
+
+ section.imagem > p {
+    background-color: black;
+    width: 400px ;
  }
 
  footer {
