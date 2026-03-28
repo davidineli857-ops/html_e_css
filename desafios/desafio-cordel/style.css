@@ -1,4 +1,24 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+
+
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.playwrite {
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
 
 * {
     margin: 0px;
@@ -14,17 +34,23 @@ header {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: "sriracha-regular";
 }
 
 header > h1 {
     padding-top: 50px;
     padding-bottom: 10px;
     font-variant: small-caps;
+    font-family: "sriracha-regular",cursive;
+    font-size: 9vh;
 
 }
+   
  header > p {
     padding-bottom: 45px;
- }
+    font-family:"playwrite-ie";
+     font-family: "sriracha-regular",cursive;
+}
 
  header a,footer a {
     color: white;
@@ -41,7 +67,10 @@ header > h1 {
     padding-bottom: 10vh;
     line-height: 30px;
     padding-left: 30px;
+   font-family:"playwrite",cursive;
+   font-size: 4vh;
  }
+
 
  section.normal {
     background-color: white;
