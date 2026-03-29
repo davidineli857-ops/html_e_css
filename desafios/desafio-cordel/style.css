@@ -70,6 +70,10 @@ header > h1 {
    font-family:"playwrite",cursive;
    font-size: 4vh;
  }
+  section > p {
+   padding-bottom:30px;
+   padding: 20px;
+  }
 
 
  section.normal {
@@ -78,13 +82,28 @@ header > h1 {
  }
 
  section.imagem {
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(64, 62, 62);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+   
+ }
+
+ section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+ }
+
+ section#img02 {
+      background-image: url('imagens/background002.jpg');
  }
 
  section.imagem > p {
-    background-color: black;
+   display: inline-block;
+    background-color: rgba(88, 88, 88, 0);
     width: 400px ;
+    text-shadow: 2px 2px 2px black;
+
  }
 
  footer {
