@@ -14,16 +14,18 @@
         border-collapse: collapse;
     }
 
-    thead {
+    thead,tfoot {
         background-color: gray;
         color: white;
     }
 
-    td {
-        border: 2px solid black;
-        padding: 9px;
+    th,td {
+         border: 2px solid black;
+         padding: 10px;
     }
-         
+    
+
+
 
 
     </style>
@@ -33,8 +35,8 @@
     <table>
        <thead>
         <tr>
-            <td>ESTADO</td>
-            <td>população</td>
+            <th>ESTADO</th>
+            <th>população</th>
            
         </tr>
 
@@ -44,12 +46,20 @@
             <td>São Paulo</td>
             <td>46 081 801</td>
         </tr>
+        <tr>
+            <td>Pará</td>
+            <td>8 711 196</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td>17 223 547</td>
+        </tr>
        </tbody>
 
        <tfoot>
          <tr>
-            <td>total de habitantes</td>
-            <td>40028922</td>
+            <th>total de habitantes</th>
+            <td>+ 71 000 000</td>
          </tr>
        </tfoot>
 
