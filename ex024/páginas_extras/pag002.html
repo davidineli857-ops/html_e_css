@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 5</title>
+    <style>
+        .cdestaque {
+            background-color: red;
+        }
+          
+        .croxo {
+            background-color: purple;
+        }
+        .cnome {
+            background-color: gold;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            margin: auto;
+        }
+
+        th,td {
+            border: 2px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>exercício de tabelas</h1>
+    <table>
+        <colgroup>
+         <col class="cnome">
+         <col class="croxo" span="2">
+         <col class="cdestaque">
+        </colgroup>
+        <caption>Cadastro</caption>
+         <tr>
+             <th>Nome </th>
+             <th>sexo</th>
+             <th>idade</th>
+             <th>Profissão</th>
+           </tr>
+            <tr>
+             <td>Ana maria</td>
+             <td>F</td>
+             <td>25</td>
+             <td>jornalista</td>
+           </tr>
+            <tr>
+             <th>Claúdio</th>
+             <td>M</td>
+             <td>28</td>
+             <td>programador</td>
+           </tr>
+            <tr>
+             <th>Augusto</th>
+             <td>M</td>
+             <td>40</td>
+             <td>Imperador</td>        
+           </tr>
+            <tr>
+             <th>Alexandre</th>
+             <td>M</td>
+             <td>20</td>
+             <td>Princípe da Macedônia</td>
+           </tr>
+            <tr>
+             <th>Ester</th>
+             <td>F</td>
+             <td>27</td>
+             <td>Rainha persa</td>
+           </tr>
+    </table>
+    
+</body>
+</html>
