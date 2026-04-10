@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 3</title>
+</head>
+<body>
+
+
+<h1>teste de formulário</h1>
+<form action="cadastro.php" method="get" 
+autocomplete="off">
+    <p>
+    <label for="inome">Nome:</label>
+    <input type="text" name="nome" id="inome"
+    required maxlength="40" 
+    placeholder="seu nome completo" autocomplete="name"><br>
+    <label for="imedia">Média de notas</label>
+    <input type="number" name="media" id="imedia"
+    min="1" max="3" step="0.5">
+    </p>
+    <p>
+      <label for="imes">período letivo</label>
+      <input type="month" name="mes" id="imes" value="2026-04">
+    </p>
+     <input type="clean" value="limpar">
+        <input type="submit" value="enviar">
+
+</form>
+
+</body>
+</html>
