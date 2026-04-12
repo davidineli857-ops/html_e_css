@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="POST">
+        <p>
+            <label for="iest"></label>
+            <select name="estado" id="iest">
+                <option value="PA">Pará</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </p>
+            </select>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lsprof">
+        <datalist id="lsprof">
+            <option value="Dev">Desenvolvedor</option>
+            <option  value="Bomb">Bombeiro</option>
+            <option value="ADM">Administrador</option>
+        </datalist>
+       
+        
+
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+    
+</body>
+</html>
