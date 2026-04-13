@@ -1,13 +1,38 @@
 @charset "UTF-8";
-
-/* estilo para telas */
+/* tela */
 
 * {
     margin: 0px;
-    padding: opx;
+    padding: 0px;
 }
 
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+header {
+    background-color: rgb(116, 114, 114);
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    background-color: darkslategrey;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+article::after {
+    content: 'essse artigo foi feito no www.cursoemvideo.com';
+}
+
+

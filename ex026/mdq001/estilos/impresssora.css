@@ -13,3 +13,15 @@ html {
     line-height: 24px;
 }
 
+menu {
+    list-style-type: none;
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'esse artigo foi feito através do www.cursoemvideo.com';
+}
