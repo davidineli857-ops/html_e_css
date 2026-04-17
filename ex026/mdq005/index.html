@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+</style>
 </head>
+
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined"
+        onclick="clickMenu()">
+menu
+</span>
+        <menu id="itens">
             <ul>
                 <li><a href="">Opção 1</a></li>
                 <li><a href="">Opção 2</a></li>
@@ -52,6 +67,16 @@
             </p>
         </article>
     </main>
-    
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+               itens.style.display = 'none'
+               }
+
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
