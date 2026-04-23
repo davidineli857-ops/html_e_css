@@ -6,33 +6,45 @@
     <title>flex</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
  .conteiner {
     background-color: lightsalmon;
     display: flex;
     flex-flow: row nowrap;
-    
+   
    }
 
 .item {
     background-color: lightskyblue;
     text-align: center;
     border: 2px solid black;
-    flex-basis: 100px ;
-    
+    flex-basis: 200px;
 }
-        
+     
+
+#ca {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+#cb {
+   flex-shrink: 0;
+  flex-grow: 1;
+}
+
+#cc {
+    flex-shrink: 0;
+  flex-grow: 0;
+}
 
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">Conteúdo grandão pra testar o espação</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item" id="ca">A</div>
+        <div class="item" id="cb">B</div>
+        <div class="item" id="cc">C</div>
+       
     </div>
 </body>
 </html>
