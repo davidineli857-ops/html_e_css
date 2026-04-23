@@ -9,29 +9,39 @@
  .conteiner {
     background-color: lightsalmon;
     display: flex;
-   
+    flex-flow: row wrap;
    }
 
 .item {
     background-color: lightskyblue;
     text-align: center;
     border: 2px solid black;
-    flex: auto;
+    padding: 20px;
     
 }
+
+#i1 {
+   order: -1;
+}
+
+#i2 {
+    order: 0;
+}
+
+
         
 
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4" style="order: -3;">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
     </div>
 </body>
 </html>
