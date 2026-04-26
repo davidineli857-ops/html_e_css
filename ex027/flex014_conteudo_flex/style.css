@@ -16,6 +16,7 @@ body {
 
 p {
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 h1,h2 {
@@ -60,4 +61,5 @@ article > div.media {
     display: block;
     margin: auto;
     width: 300px;
+    padding: 10px;
 }
